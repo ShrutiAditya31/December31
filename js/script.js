@@ -49,7 +49,8 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
+        document.getElementById("time").innerHTML = "Thank you for joining us virtually to celebrate our marriage. Feel free to witness the live streaming of our wedding rituals and extend your blessings to the newlywed couple for a joyous and prosperous life!";
+        document.getElementById("time").style.fontSize = "15px"; 
     }
 }, 1000);
 
@@ -96,7 +97,7 @@ console.log(
 
 
 // Set the date and time when the video will start streaming (replace this with your desired start time)
-var videoStartTime = new Date("Dec 31, 2023 12:00:00").getTime();
+var videoStartTime = new Date("Dec 30, 2023 12:00:00").getTime();
 
 // Update the countdown every second
 var x = setInterval(function() {
@@ -119,7 +120,8 @@ var x = setInterval(function() {
     // If the countdown is over, display a message or start the video
     if (timeRemaining < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "The video is now streaming!";
+        document.getElementById("countdown").innerHTML = "The video is now streaming! You can watch us on the folloing youtube live link.";
+        document.getElementById("countdown").style.fontSize = "15px"; 
         // You can add code here to start the video player or show the video
     }
 }, 1000);

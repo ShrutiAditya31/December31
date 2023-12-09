@@ -460,6 +460,7 @@ body {
     width: 100%; */
 	padding: 20px;
 	flex-direction: column;
+	text-align: center
 }
 
 .title {
@@ -473,6 +474,7 @@ body {
 	background-color: #eee;
 	border-radius: 20px;
 	font-size: 16px;
+	text-align: center
 }
 
 .venue {
