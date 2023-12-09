@@ -438,7 +438,7 @@ img {
 	justify-content: center;
 	-webkit-align-items: center;
 	align-items: center;
-	/* padding: 20px; */
+	padding: 20px;
 	text-align: center;
 	/* min-height:100%; */
 }
